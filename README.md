@@ -1,11 +1,9 @@
 <!-- Image Grid -->
 <p align="center">
-    <img width="48%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/407afabe-ad68-4547-977a-cd3eecba6153" alt="Image 1">
-    <img width="48%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/c6e50727-6f29-4a49-9033-fd9728ee6a8f" alt="Image 2">
-</p>
-<p align="center">
-    <img width="48%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/61c2263b-0463-465b-91e9-1d07192fca5b" alt="Image 3">
-    <img width="48%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/ae1f625b-bf48-4c89-a788-01d1e0d554f0" alt="Image 4">
+    <img width="22%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/407afabe-ad68-4547-977a-cd3eecba6153" alt="Image 1">
+    <img width="22%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/ae1f625b-bf48-4c89-a788-01d1e0d554f0" alt="Image 2">
+    <img width="22%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/c6e50727-6f29-4a49-9033-fd9728ee6a8f" alt="Image 3">
+    <img width="22%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/61c2263b-0463-465b-91e9-1d07192fca5b" alt="Image 4">
 </p>
 
 
