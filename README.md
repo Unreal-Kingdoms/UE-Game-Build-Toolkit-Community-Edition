@@ -8,7 +8,7 @@
     <img width="22%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/61c2263b-0463-465b-91e9-1d07192fca5b" alt="Image 4">
 </p>
 
-# UE-Game-Build-Tekton
+# UE Game Build Toolkit
 A build and deploymant management toolkit written for large scale Unreal Engine games
 
 - [UE-Game-Build-Tekton](#ue-game-build-tekton)
