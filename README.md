@@ -1,4 +1,5 @@
 # UE-Game-Build-Tekton
-A pipeline system for tekton designed to build large scale UE projects
+A build and deploymant management toolkit written for large scale Unreal Engine games
 
-UEGameBuild Toolkit (C) Tristan Poland 2023
+
+UEGameBuild Toolkit (C) Tristan Poland 2023 (Written for UnrealKingdoms)
