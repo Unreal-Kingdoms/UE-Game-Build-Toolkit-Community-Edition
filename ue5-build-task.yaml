@@ -4,12 +4,21 @@ metadata:
   name: ue5-build-task
 spec:
   steps:
-    - name: checkout-code
-      image: alpine/git
-      script: |
-        git clone $(inputs.params.url) /workspace/source
-        cd /workspace/source
-        git checkout $(inputs.params.revision)
+    - name: clone
+      image: perforce/p4
+      args:
+        - p4
+        - -c
+        - $(inputs.params.p4-url)
+        - -u
+        - $(inputs.params.p4-username)
+        - -P
+        - $(inputs.params.p4-password)
+        - sync
+        - //...
+      volumeMounts:
+        - name: workspace
+          mountPath: /workspace
     - name: setup-environment
       image: your-build-environment-image
       script: |
