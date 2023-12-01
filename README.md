@@ -1,5 +1,4 @@
-
-![OIP](https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/6ca7b01b-1335-4a7e-90fc-c2783ccdfb6f)
+<img style="width: 50%; margin-left: 50%; margin-right: 50%;" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/407afabe-ad68-4547-977a-cd3eecba6153"></img>
 
 # UE-Game-Build-Tekton
 A build and deploymant management toolkit written for large scale Unreal Engine games
