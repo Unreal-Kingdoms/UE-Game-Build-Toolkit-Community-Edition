@@ -62,13 +62,28 @@ function option1_action() {
         sudo apt-get install -y docker.io
     fi
 
+    # Check if KubeCTL is installed
+    if [[ -z "$(command -v kubectl)" ]]; then
+        echo "KubeCTL is not installed, installing it now..."
+        curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+        sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+    fi
 }
 
 # Function to perform action for Option 2
 function option2_action() {
     clear
     echo "Re-adding pipeline task..."
-    kubectl apply -f pipeline.yaml
+
+    #Add pipeline
+    kubectl apply -f ue5-game-pipeline.yaml
+
+    #Define Tasks
+    kubectl apply -f ue5-build-task.yaml
+
+    #Add pipelineRun
+    kubectl apply -f ue5-game-pipeline-run.yaml
+
 }
 
 # Function to perform action for Option 3
@@ -85,7 +100,7 @@ function option4_action() {
 
     minikube config set driver docker
     minikube delete
-    
+
 }
 
 # Function to display copyright dialog

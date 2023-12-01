@@ -1,0 +1,22 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: ue5-build-task
+spec:
+  steps:
+    - name: checkout-code
+      image: alpine/git
+      script: |
+        git clone $(inputs.params.url) /workspace/source
+        cd /workspace/source
+        git checkout $(inputs.params.revision)
+    - name: setup-environment
+      image: your-build-environment-image
+      script: |
+        echo "Running environment setup"
+    - name: build-ue5-game
+      image: ue5-build-image
+      script: |
+        echo "Running build process"
+        echo "Step 1"
+        echo "Step 2"
