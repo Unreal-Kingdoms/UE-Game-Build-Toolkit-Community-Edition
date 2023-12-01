@@ -76,13 +76,13 @@ function option2_action() {
     echo "Re-adding pipeline task..."
 
     #Add pipeline
-    kubectl apply -f ue5-game-pipeline.yaml
+    kubectl apply --filename ./ue5-game-pipeline.yaml
 
     #Define Tasks
-    kubectl apply -f ue5-build-task.yaml
+    kubectl apply --filename ./ue5-build-task.yaml
 
     #Add pipelineRun
-    kubectl apply -f ue5-game-pipeline-run.yaml
+    kubectl apply --filename ./ue5-game-pipeline-run.yaml
 
 }
 
