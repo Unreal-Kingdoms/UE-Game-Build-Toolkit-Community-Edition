@@ -5,10 +5,6 @@ metadata:
 spec:
   pipelineRef:
     name: ue5-game-pipeline
-  resources:
-    - name: source-repo
-      resourceRef:
-        name: your-git-resource
   params:
     - name: revision
       value: master  # Specify the revision to build
