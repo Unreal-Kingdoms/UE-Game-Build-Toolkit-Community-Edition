@@ -62,14 +62,30 @@ function option1_action() {
         sudo apt-get install -y docker.io
     fi
 
-    ./start.sh
 }
 
 # Function to perform action for Option 2
 function option2_action() {
     clear
     echo "Re-adding pipeline task..."
-    # Add your code for Option 2 action here
+    kubectl apply -f pipeline.yaml
+}
+
+# Function to perform action for Option 3
+function option3_action() {
+    clear
+    echo "Starting pipeline task..."
+    bash ./start.sh
+}
+
+# Function to perform action for Option 4
+function option4_action() {
+    clear
+    echo "Fixing MiniKube drivers..."
+
+    minikube config set driver docker
+    minikube delete
+    
 }
 
 # Function to display copyright dialog
@@ -85,7 +101,9 @@ dialog --backtitle "(C) Tristan J. Poland 2023" \
        --menu "Select a pipeline option:" 12 40 2 \
        1 "Run pipeline setup" \
        2 "Add pipeline task" \
-       3 "About" \
+       3 "Start UE pipeline system" \
+       4 "Fix-Up MiniKube Drivers" \
+       5 "About" \
        2>/tmp/choice
 
 # Get the user's choice
@@ -95,7 +113,9 @@ choice=$(cat /tmp/choice)
 case $choice in
     1) option1_action ;;
     2) option2_action ;;
-    3) about_dialog ;;
+    3) option3_action ;;
+    4) option4_action ;;
+    5) about_dialog ;;
     *) clear & echo "Operation Canceled";;
 esac
 
