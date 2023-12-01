@@ -11,10 +11,9 @@
 # UE Game Build Toolkit
 A build and deploymant management toolkit written for large scale Unreal Engine games
 
-- [UE-Game-Build-Tekton](#ue-game-build-tekton)
-  - [Setup](#setup)
-    - [Pipeline Setup](#pipeline-setup)
-    - [Reboot Setup](#reboot-setup)
+- [Setup](#setup)
+  - [Pipeline Setup](#pipeline-setup)
+  - [Reboot Setup](#reboot-setup)
   - [Usage](#usage)
 
 ## Setup
