@@ -3,20 +3,7 @@ kind: Pipeline
 metadata:
   name: ue5-game-pipeline
 spec:
-  resources:
-    - name: source-repo
-      type: git
   tasks:
-    - name: clone-repo
-      taskRef:
-        name: git-clone
-      resources:
-        inputs:
-          - name: url
-            resource: source-repo
-    - name: setup-build-environment
-      taskRef:
-        name: setup-environment
     - name: build-ue5-game
       taskRef:
         name: ue5-build-task
