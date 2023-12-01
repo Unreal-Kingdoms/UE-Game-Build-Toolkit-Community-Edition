@@ -1,4 +1,5 @@
 <img style="width: 50%; margin-left: 50%; margin-right: 50%;" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/407afabe-ad68-4547-977a-cd3eecba6153"></img>
+<img style="width: 50%; margin-left: 50%; margin-right: 50%;" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/c6e50727-6f29-4a49-9033-fd9728ee6a8f"></img>
 
 # UE-Game-Build-Tekton
 A build and deploymant management toolkit written for large scale Unreal Engine games
