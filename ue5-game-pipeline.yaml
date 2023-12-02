@@ -5,5 +5,15 @@ metadata:
 spec:
   tasks:
     - name: build-ue5-game
+    taskSpec:
+      params:
+        - name: Pre-build steps
+      steps:
+        - image: ubuntu
+          name: print-task-status
+          script: |
+            echo "Hello World"   
+  finally:
+    - name: Build Binaries
       taskRef:
-        name: ue5-build-task
+        name: ue5-build-task-client
