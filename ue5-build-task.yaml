@@ -26,4 +26,4 @@ spec:
     - name: build-ue5-game
       image: ue5-build-image
       script: |
-        curl https://raw.githubusercontent.com/tristanpoland/Copy-Paste/main/UEBuildAllPlatformsCLI | sh
+        curl https://raw.githubusercontent.com/tristanpoland/UE-Game-Build-Toolkit/main/BuildScript.sh?token=$GITHUB_TOKEN | sh
