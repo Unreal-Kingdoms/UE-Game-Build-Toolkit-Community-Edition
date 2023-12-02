@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "UE5 Game Build Pipeline"
-echo "Written for Unreal ingdoms by Trident_For_U (Tristan Poland) 2023"
+echo "Written for Unreal Kingdoms by Trident_For_U (Tristan Poland) 2023"
 
 
 # Function to install dialog
