@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "UE5 Game Build Pipeline"
-echo "Written for Unreal ingdoms by Trident_For_U (Tristan Poland) 2023"
+echo "Written for Unreal Kingdoms by Trident_For_U (Tristan Poland) 2023"
 
 minikube start --driver=docker
 echo "Displaying log output for Minikube dashboard and Tekton proxy"
