@@ -27,6 +27,9 @@ First we need to do some initial pipeline setup so that we can automate and dist
 - Next, to start up the pipeline system run "Start UE pipeline system"
 - Once your pipeline is started, in a new window re-run ``setup.sh`` and select "Add pipeline task"
 
+#### Pipeline overview:
+![image](https://github.com/Unreal-Kingdoms/UE-Game-Build-Toolkit/assets/34868944/c7292c78-2645-4582-98f7-7b8374062803)
+
 ### Reboot setup
 Next we need to take reboots into account. In order to start the entire cluster, cluster dashboard , and Tekton dashboard on system start, follow the steps below
 - Run ``crontab -e`` to edit your user's cron list
