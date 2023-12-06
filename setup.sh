@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "UE5 Game Build Pipeline"
-echo "Written for Unreal Kingdoms by Trident_For_U (Tristan Poland) 2023"
+echo "Written by Trident_For_U (Tristan Poland) 2023"
 
 
 # Function to install dialog
@@ -103,7 +103,7 @@ function option4_action() {
 
 }
 
-# Function to display copyright dialog
+# Function to display copyright dialoghttps://github.com/Unreal-Kingdoms/UE-Game-Build-Toolkit/blob/main/setup.sh
 about_dialog() {
     dialog --backtitle "About" \
            --title "Copyright" \
