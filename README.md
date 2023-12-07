@@ -1,3 +1,7 @@
+# This is the community edition of our build pipeline
+
+This repo is open for you to use in any projects and modify as you see fit! Wou would appreciate you creating pull requests for any additional modifications you make that my be useful to the community ❤️
+
 <!-- Image Grid -->
 <p align="center">
     <img width="35%" src="https://github.com/tristanpoland/UE-Game-Build-Toolkit/assets/34868944/407afabe-ad68-4547-977a-cd3eecba6153" alt="Image 1">
@@ -41,4 +45,4 @@ Next we need to take reboots into account. In order to start the entire cluster,
 This section outlines basic usage of the toolkit, this consists mainly of interacting with the Tekton pipeline to run pre-defined automated tasks.
 
 
-UEGameBuild Toolkit (C) Tristan Poland 2023
+UEGameBuild Toolkit (C) Tristan Poland 2023 Written with ❤️
