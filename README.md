@@ -45,4 +45,4 @@ Next we need to take reboots into account. In order to start the entire cluster,
 This section outlines basic usage of the toolkit, this consists mainly of interacting with the Tekton pipeline to run pre-defined automated tasks.
 
 
-UEGameBuild Toolkit (C) Tristan Poland 2023 Written with ❤️
+Written with ❤️ by Tristan J Poland
