@@ -1,6 +1,6 @@
 # This is the community edition of our build pipeline
 
-This repo is open for you to use in any projects and modify as you see fit! Wou would appreciate you creating pull requests for any additional modifications you make that my be useful to the community.
+This repo is open for you to use in any projects and modify as you see fit! We would appreciate you creating pull requests for any additional modifications you make that my be useful to the community.
 
 <!-- Image Grid -->
 <p align="center">
